@@ -1,12 +1,15 @@
 def fibonnaci(n):
     count = 0
     n1 , n2 = 0, 1
-    while count <= n:
+    if n == 0:
+        print("Please enter a differnt number")
+    else:
+        while count <= n:
         
-        fib = n1+n2
-        n1 = n2
-        n2 = fib
-        count+=1
+            fib = n1+n2
+            n1 = n2
+            n2 = fib
+            count+=1
         print(fib)
     return fib
 
