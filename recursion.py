@@ -37,4 +37,4 @@ def compareTo(s1, s2):
         return val2
     return
 
-compareTo()
+
